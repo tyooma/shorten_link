@@ -1,0 +1,6 @@
+{
+  "port": 5000,
+  "jwtSecret": "tyooma programist",
+  "mongoUri": "mongodb+srv://tyooma:trap@cluster0.t5pgm.mongodb.net/app?retryWrites=true&w=majority",
+  "baseUrl": "http://localhost:5000"
+}
