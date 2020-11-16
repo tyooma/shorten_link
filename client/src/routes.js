@@ -6,6 +6,7 @@ import DetailPage from './pages/DetailPage'
 import LinksPage from './pages/LinksPage'
 
 export const useRoutes = isAuthenticated => {
+  console.log(isAuthenticated)
   if (isAuthenticated) {
     return (
       <Switch>
